@@ -1,0 +1,33 @@
+//the input file faraday3D.m matlab code
+//the program calculated the faraday rotation of a slab of magneto-optic photonic crsystal with limitted thinkness
+//the slab is, in general, placed between two  media1 and media3 with electric permittivities of eps1 and eps3 //respectively.
+// the crystal is made of a 2D array of bars located in a background. The bas cross-section could be either //eliptical or rectangular
+//The first input parametrer is GEOMETRY which describes the bar cross-section being elliptical or rectangular
+//GEOMETRY =0 indicates eliptical, GEOMETRY =1 is for rectangular
+//GEOMETRY
+1
+//Rx Ry
+.4	.4
+//CRYSTAL CONSTANT
+// ax        ay
+1.17	1.17
+//EPS1 EPS3
+1.0	1.0
+//epsilon of the back ground. The first 3 are the elpsion sin the x , y and z direction and the forth one is the //complex part.
+//EPS_BACKGROUND
+1.0	1.0	1.0	0.00
+//epsilon of the bars. The first 3 are the elpsion sin the x , y and z direction and the forth one is the complex //part.
+//EPS_BAR
+6.25	6.25	6.25	0.03
+//Na
+// number of mile ha
+16
+//Transmittivity  FaradayRotation
+1	1
+// WN1	WN2 DIVISION
+.3	.9	240
+// NGX NGY
+5	120
+//PlotFouriesSeries   Plot3DVectors
+0	0
+
